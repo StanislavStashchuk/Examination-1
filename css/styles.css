@@ -2265,8 +2265,22 @@ body {
 }
 
 .app {
-  height: 100px;
+  height: 900px;
   width: 100%;
   background-color: #245c49;
+}
+
+header {
+  background-color: blue;
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  background-color: cadetblue;
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=styles.css.map */
