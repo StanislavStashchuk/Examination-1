@@ -2272,13 +2272,20 @@ body {
 
 header {
   background-color: blue;
-  height: 100px;
+  height: 150px;
   width: 80%;
   margin: 0 auto;
 }
 
 section {
   background-color: cadetblue;
+  height: 550px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: cornflowerblue;
   height: 200px;
   width: 80%;
   margin: 0 auto;
