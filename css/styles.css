@@ -11,44 +11,6 @@ body {
   background-color: #edf2f6;
 }
 
-/**
-*Additional classes
-**/
-.small-title {
-  font-weight: 500;
-  font-size: 0.8125rem;
-  color: #4B515D;
-  line-height: 22px;
-  margin-bottom: 0.2rem;
-}
-
-.cd-top {
-  background-color: #ff6f00;
-  bottom: 100px;
-  color: #ffffff;
-  opacity: 0;
-  position: fixed;
-  right: 10px;
-  transition: opacity .3s 0s, visibility 0s .3s;
-  visibility: hidden;
-  z-index: 10;
-}
-
-.cd-top.cd-is-visible {
-  opacity: 1;
-  transition: opacity .3s 0s, visibility 0s 0s;
-  visibility: visible;
-}
-
-.card-title-special {
-  margin: .8rem 0;
-}
-
-.round-btn {
-  border-radius: 50%;
-  padding: 1rem !important;
-}
-
 .card {
   margin-bottom: 1.625rem;
 }
@@ -520,7 +482,7 @@ body {
 }
 
 .card.about .social-accounts .btn {
-  margin: 0.625rem 0.25rem 0.625rem 0;
+  margin: calculate-rem(10px) calculate-rem(4px) calculate-rem(10px) 0;
 }
 
 /** Styles for contacts card **/
@@ -917,12 +879,12 @@ body {
 
 @media only screen and (max-width: 992px) {
   .documents-header .row > div {
-    margin-bottom: 0.625rem;
+    margin-bottom: calculate-rem(10px);
   }
 }
 
 .documents-header .add-document {
-  padding: 0.625rem 1.5rem;
+  padding: calculate-rem(10px) calculate-rem(24px);
 }
 
 .user-documents-list .container {
@@ -932,14 +894,14 @@ body {
 
 .documents-row-header {
   color: #545e6e;
-  font-size: 0.875rem;
+  font-size: calculate-rem(14px);
   font-weight: 600;
   padding: 1rem 0;
 }
 
 .document-item {
   border-bottom: 1px solid #e6ecf5;
-  font-size: 0.875rem;
+  font-size: calculate-rem(14px);
   margin-bottom: 10px;
   padding: .8rem 0;
 }
@@ -1005,7 +967,7 @@ body {
 }
 
 .document-item .actions-list .list-inline-item {
-  margin-right: 0.5625rem;
+  margin-right: calculate-rem(9px);
 }
 
 @media only screen and (max-width: 992px) {
@@ -1023,20 +985,20 @@ body {
 }
 
 .document-item .actions-list .fa {
-  font-size: 1.125rem;
+  font-size: calculate-rem(18px);
 }
 
 @media only screen and (max-width: 992px) {
   .document-item .actions-list .fa {
-    font-size: 1.5625rem;
+    font-size: calculate-rem(25px);
   }
 }
 
 .document-item .property-label {
   color: #545e6e;
-  font-size: 0.875rem;
+  font-size: calculate-rem(14px);
   font-weight: 600;
-  margin-right: 0.625rem;
+  margin-right: calculate-rem(10px);
 }
 
 @media only screen and (max-width: 992px) {
@@ -1048,7 +1010,7 @@ body {
 .document-item .document-location .avatar {
   display: inline-block;
   height: 2.5rem;
-  margin-right: 0.625rem;
+  margin-right: calculate-rem(10px);
   width: 2.5rem;
 }
 
@@ -1475,7 +1437,7 @@ body {
 }
 
 .edit-post-modal .modal-header {
-  padding: 0.3125rem 0.9375rem;
+  padding: calculate-rem(5px) calculate-rem(15px);
 }
 
 .edit-post-modal .modal-body {
@@ -2079,11 +2041,11 @@ body {
   color: #ffffff;
   display: inline-block;
   font-weight: 600;
-  left: 11.375rem;
+  left: calculate-rem(182px);
   margin-bottom: .15rem;
-  margin-left: 4.75rem;
+  margin-left: calculate-rem(76px);
   position: absolute;
-  top: -6.125rem;
+  top: calculate-rem(-98px);
   z-index: 99;
 }
 
@@ -2208,7 +2170,7 @@ body {
 }
 
 .party-card .profile-menu {
-  margin-left: 12.875rem;
+  margin-left: calculate-rem(206px);
   position: relative;
 }
 
